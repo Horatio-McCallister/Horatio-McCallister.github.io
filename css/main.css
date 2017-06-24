@@ -1,6 +1,5 @@
 body {
-    margin: 0px;
-    width: 100%;
+    margin: 0;
 }
 nav ul, footer ul {
     font-family: 'Roboto', sans-serif;
@@ -11,13 +10,11 @@ nav ul, footer ul {
 }
 nav ul {
 	position: fixed; /* Set the navbar to fixed position */
-    top: 10; /* Position the navbar at the top of the page */
+    top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+	overflow: hidden;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 .container {
 	margin-top: 10%;
 	margin-left: 10%;
