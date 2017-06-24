@@ -1,4 +1,4 @@
 name: Rocket Punch Studios
 markdown: kramdown
-paginate: 3
+paginate: 1
 paginate_path: "/blog/page:num/" 
