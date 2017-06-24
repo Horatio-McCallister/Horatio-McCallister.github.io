@@ -1,4 +1,4 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
-paginate: 3 
-paginate_path: "/blog/page:num/"
+paginate: 10
+paginate_path: "/blog/page:num/" 
