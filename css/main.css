@@ -7,6 +7,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	background-color: #163d7c;
 }
 nav ul {
 	position: fixed; /* Set the navbar to fixed position */
