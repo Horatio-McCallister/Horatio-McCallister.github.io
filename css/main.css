@@ -1,20 +1,17 @@
 body {
-    margin: 0;
+    margin: 60px auto;
     width: 70%;
 }
-
-footer ul {
-	font-family: 'Roboto', sans-serif;
-	padding: 0px;
-	list-style: none;
-	font-weight: bold;
+nav ul, footer ul {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-nav ul{
-	font-family: 'Roboto', sans-serif;
-	padding: 0px;
-	list-style: none;
-	font-weight: bold;
-}	
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
 a {
     text-decoration: none;
     color: #999;
