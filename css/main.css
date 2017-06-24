@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul {
 	position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    top: -10; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
 nav ul li, footer ul li {
@@ -19,8 +19,8 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 .container {
-	margin-top: 30%;
-	margin-left: 25%;
+	margin-top: 10%;
+	margin-left: 10%;
 }
 a {
     text-decoration: none;
