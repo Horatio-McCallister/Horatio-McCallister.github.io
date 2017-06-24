@@ -14,7 +14,10 @@ nav ul {
     width: 100%; /* Full width */
 	overflow: hidden;
 }
-
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
 .container {
 	margin-top: 10%;
 	margin-left: 10%;
