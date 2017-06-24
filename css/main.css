@@ -2,20 +2,46 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family: 'Roboto', sans-serif;	
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+<<<<<<< HEAD
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-nav {
-	background-color:#002d60;
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+footer ul {
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+}
+=======
+>>>>>>> parent of 4888fed... Changed navigation bar color
 
 a {
     text-decoration: none;
@@ -37,16 +63,13 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-    font-family: 'Roboto', sans-serif;	
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-    font-family: 'Roboto', sans-serif;	
 
 ul.posts li {
     list-style: none;
 }
-    font-family: 'Roboto', sans-serif;	
 

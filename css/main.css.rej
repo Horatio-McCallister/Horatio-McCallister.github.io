@@ -1,0 +1,22 @@
+diff a/css/main.css b/css/main.css	(rejected hunks)
+@@ -2,6 +2,20 @@
+     margin: 60px auto;
+     width: 70%;
+ }
++nav ul, footer ul {
++    font-family: 'Roboto', sans-serif;	
++    padding: 0px;
++    list-style: none;
++    font-weight: bold;
++}
++nav ul li, footer ul li {
++    display: inline;
++    margin-right: 20px;
++}
++
++nav {
++	background-color:#002d60;
++}
+ 
+ a {
+     text-decoration: none;
