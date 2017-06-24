@@ -6,17 +6,21 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-	background-color: #163d7c;
 }
 nav ul {
 	position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 	overflow: hidden;
+	background-color: #163d7c;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+	margin-bottom: 20px;
+}
+nav ul li {
+	background-color: #163d7c;
 }
 .container {
 	margin-top: 10%;
