@@ -33,6 +33,13 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 
+footer ul {
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+}
+
 a {
     text-decoration: none;
     color: #999;
