@@ -9,10 +9,12 @@ title: Rocket Punch Studio Blog
   <p class="author">
     <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
   </p>
-  <div class="content">
-    {{ post.excerpt }}
-	<a href="{{ post.url }}">Read more.</a>
-  </div>
+  <center>
+	  <div class="content">
+		{{ post.excerpt }}
+		<a href="{{ post.url }}">Read more.</a>
+	  </div>
+  </center>
 {% endfor %}
 
 <!-- Pagination links -->
