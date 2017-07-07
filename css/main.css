@@ -1,6 +1,6 @@
 body {
     margin: 0;
-	color: #2b2829;
+	background-color: #2b2829;
 }
 nav ul, footer ul {
     font-family: 'Roboto', sans-serif;
@@ -27,7 +27,6 @@ nav ul li {
 	margin-top: 10%;
 	margin-left: 10%;
 	margin-right: 10%;
-	color: #2b2829;
 }
 a {
     text-decoration: none;
