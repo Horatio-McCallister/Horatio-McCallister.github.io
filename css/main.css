@@ -13,7 +13,7 @@ nav ul {
     top: -16px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 	overflow: hidden;
-	background-color: #163d7c;
+	background-color: #4a3635;
 }
 nav ul li, footer ul li {
     display: inline;
