@@ -21,7 +21,7 @@ nav ul li, footer ul li {
 	margin-bottom: 20px;
 }
 nav ul li {
-	background-color: #163d7c;
+	background-color: #4a3635;
 }
 .container {
 	margin-top: 10%;
@@ -30,7 +30,7 @@ nav ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #678282;;
 }
 a:hover {
     text-decoration: underline;
